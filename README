@@ -1,1 +1,17 @@
 VPN IPSec between Fortigate and Linux
+
+
+Topology:
+Fortigate 60C - FortiOS 4.0 MR3
+VPN Endpoint:
+	wan1 - IP:192.168.123.99
+Encryption domain:
+	192.168.123.99/32
+
+Linux CentOS 6.4
+VPN Endpoint:
+	eth0 - IP:192.168.123.123
+Encryption domain:
+	192.168.122.123/32
+
+
